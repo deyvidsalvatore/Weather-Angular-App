@@ -8,11 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { WeatherHomeComponent } from './modules/wheater/page/weather-home/weather-home.component';
+import { WeatherCardComponent } from './modules/wheater/components/weather-card/weather-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherHomeComponent
+    WeatherHomeComponent,
+    WeatherCardComponent
   ],
   imports: [
     BrowserModule,
